@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+
 .navbar-brand{
     width: 10%;
 }
@@ -21,6 +22,33 @@ body{
     position: relative;
     perspective: 1000px;
     transform-style: preserve-3d;
+}
+
+hr{
+    background: white;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.square{
+    margin-left: 3%;
+    padding: 50px 150px;
+}
+.bundle{
+    width: 8cm;
+    height: 8cm;
+    border-radius: 30px;
+    background-color: #FFFF;
+    opacity: 0.8;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3;
+}
+
+p{
+    padding: 5% 0;
+    opacity: 0%;
+    background-color: #FFFF 20%;
 }
 
 #slider label{
@@ -73,3 +101,5 @@ section img{
     box-shadow: 0 1px 4px 0 rgba(0, 0,0,.37) ;
     transform: translate3d(30%,0,-200px);
 }
+
+
