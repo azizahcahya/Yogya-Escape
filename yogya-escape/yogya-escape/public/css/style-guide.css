@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+html{
+    font-size: 70%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+
+header{
+    position: fixed;
+    top:0; left: 0; right:0;
+    background: #fff;
+    padding:1rem 1%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    text-decoration: none;
+}
+
+header img{
+    width: 7%;
+}
+
+header .navbar a{
+    font-size: 1.7rem;
+    border-radius: .5rem;
+    padding:.5rem 3rem;
+    color:var(--light-color);
+    text-decoration: none;
+}
+
+header .navbar a.active,
+header .navbar a:hover{
+    color:#fff;
+    background: var(--green);
+}
+
+h4{
+    margin-left: 100px;
+    margin-right: 200px;
+}
+
+h1.large-title {
+    margin-top: 260px;
+    margin-left: 100px;
+    font-size: 40px;
+    color: #232323;
+}
+
+p.text-muted {
+    margin-left: 100px;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+
+.jumbotron-img img{
+    margin-top: 120px;
+    margin-left: -150px;
+    margin-right: 120px;
+    position: absolute;
+    width: 517.5px;
+    height: 392px;
+    border-radius: 30px;
+}
+
+.image{
+    width: 5px;
+}
+
+.imgEmbuh{
+    width: 100%;
+    height: auto;
+}
+
+/* .card:hover {
+    border: 1px solid rgb(181, 181, 181);
+    height: 11cm;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.861);
+} */
+
+.card{
+    border-radius : 10px;
+}
+
+.card h3 {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.card span {
+    margin-left: 10px;
+}
