@@ -87,3 +87,5 @@
 @endforeach 
 {{-- <div class="d-flex justify-content-end mb-4"><a class="btn btn-success text-uppercase" href="#!">Older Posts →</a></div>   --}}
 @endsection
+
+{{-- Source body: https://github.com/startbootstrap/startbootstrap-clean-blog --}}

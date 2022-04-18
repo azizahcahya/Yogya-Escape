@@ -29,7 +29,6 @@
           <td>{{ $guide->nama }}</td>
           <td>{{ $guide->noHp }}</td>
           <td>
-            <a href="/dashboard/guide/{{$guide->id}}" class="badge bg-info"><span data-feather="eye"></span></a>
             <a href="/dashboard/guide/{{$guide->id}}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
             <form action="/dashboard/guide/{{$guide->id}}" method="post" class="d-inline">
               @method('delete')

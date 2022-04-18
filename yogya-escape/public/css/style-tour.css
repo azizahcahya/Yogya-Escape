@@ -533,7 +533,7 @@ header .icons #menu-bars{
     margin-top: 0;
 }
 
-.footer .box-container{
+/* .footer .box-container{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     gap:1.5rem;
@@ -569,7 +569,7 @@ header .icons #menu-bars{
 
 .footer .credit span{
     color:var(--green);
-}
+} */
 
 .loader-container{
     position: fixed;

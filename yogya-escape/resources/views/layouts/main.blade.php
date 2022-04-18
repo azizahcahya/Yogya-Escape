@@ -35,7 +35,7 @@
                     <div class="col-md-3 item">
                         <img class="navbar-brand" href="#" src="./asset/Escape white.png">
                     </div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-2 item">
                         <h3>About Us</h3>
                         <ul>
                             <li><a href="#">Company</a></li>
@@ -44,7 +44,7 @@
                         </ul>
                     </div>
                     <div class="col-md-3 item"></div>
-                    <div class="col-md-3 item">
+                    <div class="col-md-4 item">
                         <div class="col item social"><a href="#"><i class="fa fa-facebook"></i></a><a href="#"><i class="fa fa-twitter"></i></a><a href="#"><i class="fa fa-youtube"></i></a><a href="#"><i class="fa fa-instagram"></i></a><a href="#"><i class="fa fa-google"></i></a></div>
                     </div>
                 </div>

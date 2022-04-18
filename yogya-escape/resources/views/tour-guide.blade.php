@@ -130,8 +130,7 @@
   @endif
 
 @endforeach
-
-
+</div>
 </section>
 <!-- Tour Guide section ends -->
 

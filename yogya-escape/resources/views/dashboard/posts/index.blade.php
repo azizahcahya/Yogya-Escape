@@ -29,7 +29,6 @@
           <td>{{ $post->nama }}</td>
           <td>{{ $post->lokasi }}</td>
           <td>
-            <a href="/dashboard/posts/{{$post->id}}" class="badge bg-info"><span data-feather="eye"></span></a>
             <a href="/dashboard/posts/{{$post->id}}/edit" class="badge bg-warning"><span data-feather="edit"></span></a>
             <form action="/dashboard/posts/{{$post->id}}" method="post" class="d-inline">
               @method('delete')

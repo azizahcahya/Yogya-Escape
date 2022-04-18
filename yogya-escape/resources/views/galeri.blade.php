@@ -24,8 +24,9 @@
     @endphp
             <img src='{{ asset('storage/' . $post->image) }}' class='figure-img img-fluid rounded-lg' alt='keratonYogya'>
             <figcaption class='figure-caption'> {{$post->nama}} </figcaption>
+            <p class="ms-3 mt-3">{{$post->lokasi}}</p>
             <a href='/articles/{{$post->id}}'>
-              @php echo "<button type='button' class='btn btn-success ms-2 mt-4 '>Read More</button></a>
+              @php echo "<button type='button' class='btn btn-success ms-2'>Read More</button></a>
           </figure>
         </div> ";
     @endphp

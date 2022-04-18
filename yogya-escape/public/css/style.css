@@ -283,7 +283,7 @@ hr{
 }
 
 .footer-dark .item.social {
-    text-align: center
+    text-align: center;
 }
 
 @media (max-width:991px) {
