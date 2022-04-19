@@ -39,46 +39,6 @@
                     on April 08, 2022
                 </p>
             </div>
-            {{-- <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html"><h2 class="post-title">Tugu Yogyakarta Ikon DIY</h2></a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Me</a>
-                    on April 04, 2022
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">Pantai Ngetun: Hidden Gem</h2>
-                    <h3 class="post-subtitle">Pantai alami berpasir putih yang diapit oleh dua buah semenanjung yang menjorok ke tengah laut.</h3>
-                </a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Me</a>
-                    on August 24, 2022
-                </p>
-            </div>
-            <!-- Divider-->
-            <hr class="my-4" />
-            <!-- Post preview-->
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">Hotel Bersejarah di Yogyakarta</h2>
-                    <h3 class="post-subtitle">Hotel Phoenix</h3>
-                </a>
-                <p class="post-meta">
-                    Posted by
-                    <a href="#!">Me</a>
-                    on July 8, 2022
-                </p>
-            </div> --}}
-            <!-- Divider-->
             <hr class="my-4" />
             <!-- Pager-->
         </div>

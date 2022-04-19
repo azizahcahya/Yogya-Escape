@@ -18,11 +18,12 @@
     <header>
         <img class="navbar-brand" href="#" src="./asset/Escape copy.png">
         <nav class="navbar">
-            <a href="home">Home</a>
-            <a href="galeri">Gallery</a>
-            <a href="tour-guide">Tour Guide</a>
-            <a href="articles">Articles</a>
+            <a href="home" class="{{Request::is('home')? 'active' : ''}}">Home</a>
+            <a href="galeri" class="{{Request::is('galeri')? 'active' : ''}}">Gallery</a>
+            <a href="tour-guide" class="{{Request::is('tour-guide')? 'active' : ''}}">Tour Guide</a>
+            <a href="articles" class="{{Request::is('articles')? 'active' : ''}}">Articles</a>
         </nav>
+        
     </header>
 
     @yield('container')

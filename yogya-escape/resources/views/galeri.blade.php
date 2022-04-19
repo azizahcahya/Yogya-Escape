@@ -33,7 +33,6 @@
     @if ($key % 3 == 2)
         @php echo '</div>';@endphp
     @endif
-
   @endforeach
 </div>
 @endsection

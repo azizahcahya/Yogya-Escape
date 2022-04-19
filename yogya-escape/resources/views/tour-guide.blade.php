@@ -99,8 +99,8 @@
     
     <div class="container" id="potoBawah">
       @foreach ($posts as $key => $post)
-  @if ($key % 3 == 0)
-      @php echo '<div class = "row">';@endphp
+        @if ($key % 3 == 0)
+          @php echo '<div class = "row">';@endphp
 
   @endif
   @php echo "<div class='col'>
